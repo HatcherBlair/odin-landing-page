@@ -1,0 +1,21 @@
+/* Element stylings */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Class stylings */
+
+.header, .hero, footer {
+    background: #1F2937;
+}
