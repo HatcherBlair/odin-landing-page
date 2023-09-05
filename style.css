@@ -20,19 +20,46 @@ button {
 
 /* Class stylings */
 
+.header, .hero, .content, .quote, .footer {
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.call-to-action {
+    margin: 128px;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    border-radius: 12px;
+}
+
 .header, .hero, .footer {
     background: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color:#F9FAF8;
+}
+
+.header {
+    padding-top: 12px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-link-list {
+    display: flex;
+    gap: 12px;
 }
 
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-}
-
-.header-logo {
-    font-size: 24px;
-    color:#F9FAF8;
 }
 
 .secondary-text, .header-link {
