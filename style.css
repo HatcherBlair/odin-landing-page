@@ -14,8 +14,56 @@ ul {
     padding: 0;
 }
 
+button {
+    background-color: #3882F6;
+}
+
 /* Class stylings */
 
-.header, .hero, footer {
+.header, .hero, .footer {
     background: #1F2937;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.secondary-text, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.call-to-action {
+    background: #3882F6;
+}
+
+.primary-text {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 12px;
+    color: #E5E7EB;
 }
